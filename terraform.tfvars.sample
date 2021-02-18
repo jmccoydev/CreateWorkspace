@@ -9,15 +9,13 @@ oauth_token_id              = ""  <-- Oauth token id from TFC organization VCS i
 # The following variables will be created in the workspace we are creating.
 
 tfe_vars_sensitive = {
-    ARM_SUBSCRIPTION_ID = ""
-    ARM_CLIENT_ID = ""
-    ARM_TENANT_ID = ""
-    ARM_CLIENT_SECRET = ""
-    azure_instance_username = ""
-    azure_instance_password = ""
 }
 
 env_vars_sensitive  = {
+    ARM_SUBSCRIPTION_ID = 	""
+    ARM_CLIENT_ID = 		""
+    ARM_TENANT_ID = 		""
+    ARM_CLIENT_SECRET = 	""
 }
 
 tfe_vars_nonsensitive = {
